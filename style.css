@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap');
+body{
+  display: block;
+  margin: auto;
+  font-family: 'Roboto Slab', sans-serif;
+}
+header{
+  width: 100%;
+  background-color: black;
+}
+
+.headcontain{
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 4%;
+  padding-top: 4%;
+}
+
+h1{
+  width: 100%;
+  text-align: center;
+  color: White;
+  font-size: 45px;
+}
+
+.dot{
+  font-size: 90px;
+}
+
+.description{
+  display: flex;
+  width: 100%;
+  padding-top: 4%;
+  padding-bottom: 4%;
+}
+
+.description p{
+  text-align: center;
+  font-size: 20px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.instaClick{
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  color: white;
+}
+
+a{
+  display: block;
+  width: auto;
+  text-align: center;
+}
+
+.instaLogo{
+  width: 50px;
+}
+
+section{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: black;
+}
+
+.photoDesc{
+  color: white;
+  font-size: 25px;
+  text-align: center;
+}
+
+article{
+  width: 50%;
+}
+
+article img{
+  width: 80%;
+  margin-left: 10%;
+}
+
+div{
+  width: 100%;
+}
